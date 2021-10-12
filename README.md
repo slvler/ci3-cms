@@ -18,6 +18,7 @@
 | Bootstrap 4                                                                       |     👍     |                                                                        
 | JavaScript                                                                        |     👍     |   
 | JQuery                                                                            |     👍     |   
+| DataTables                                                                        |     👍     |   
 
 
 
