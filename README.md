@@ -1,8 +1,6 @@
 # qwerty-cms
  
 
-![cover](/cover.png)
-
 ![Contributions Welcome](https://img.shields.io/badge/Contributions-welcome-blue.svg)
 
 Know a resource that isn't listed below? Feel free to create a new [pull request](https://github.com/alexpate/awesome-design-systems/pulls).
