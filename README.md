@@ -9,14 +9,7 @@ Know a resource that isn't listed below? Feel free to create a new [pull request
 
 ---
 
-### Tags
 
-- Components: Contains coded patterns and examples.
-- Voice & Tone: Provides guidance on how language should be used.
-- Designers Kit: Includes a Sketch/Photoshop/Figma/etc. file for designers.
-- Source code: Publically viewable source code
-
----
 
 |                                                                                   | Components | 
 | --------------------------------------------------------------------------------- | :--------: |
