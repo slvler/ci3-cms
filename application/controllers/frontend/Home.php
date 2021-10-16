@@ -16,12 +16,26 @@ class Home extends MY_Controller
     {
 
 
-        $data["language"] = $this->Language_model->select_all();
-        $data["settings"] = $this->Settings_model->select_all();
-        $data["category"] = $this->Category_model->select_all();
-        $data["product"] = $this->Product_model->select_all_lang();
+        $this->load->driver('cache', array('adapter' => 'apc', 'backup' => 'file'));
+
+        $homeland = md5('homeland');
+        if ( ! $data = $this->cache->get($homeland))
+        {
+
+            $data["language"] = $this->Language_model->select_all();
+            $data["settings"] = $this->Settings_model->select_all();
+            $data["category"] = $this->Category_model->select_all();
+            $data["product"] = $this->Product_model->select_all_lang();
+
+            $this->cache->save($homeland, $data, 300);
+        }else{
+            $data = $this->cache->get($homeland);
+        }
 
         $this->load->view('front/index',$data);
+
+
+
     }
 
 
