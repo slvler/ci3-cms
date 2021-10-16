@@ -19,6 +19,7 @@
 | JavaScript                                                                        |     👍     |   
 | JQuery                                                                            |     👍     |   
 | DataTables                                                                        |     👍     |   
+| Cache                                                                             |     👍     |   
 
 
 
